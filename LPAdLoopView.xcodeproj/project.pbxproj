@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE81701D1DC2FAB50053E116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81701C1DC2FAB50053E116 /* AppDelegate.swift */; };
+		EE81701F1DC2FAB50053E116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81701E1DC2FAB50053E116 /* ViewController.swift */; };
+		EE8170221DC2FAB50053E116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8170201DC2FAB50053E116 /* Main.storyboard */; };
+		EE8170241DC2FAB60053E116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8170231DC2FAB60053E116 /* Assets.xcassets */; };
+		EE8170271DC2FAB60053E116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8170251DC2FAB60053E116 /* LaunchScreen.storyboard */; };
+		EE8170321DC2FAB60053E116 /* LPAdLoopViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8170311DC2FAB60053E116 /* LPAdLoopViewTests.swift */; };
+		EE81703D1DC2FAB60053E116 /* LPAdLoopViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81703C1DC2FAB60053E116 /* LPAdLoopViewUITests.swift */; };
+		EE81704B1DC2FB740053E116 /* AdLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81704A1DC2FB740053E116 /* AdLoopView.swift */; };
+		EEFE3ED81DC7443200EB8E6F /* first.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3ED51DC7443200EB8E6F /* first.jpg */; };
+		EEFE3ED91DC7443200EB8E6F /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3ED61DC7443200EB8E6F /* second.jpg */; };
+		EEFE3EDA1DC7443200EB8E6F /* third.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3ED71DC7443200EB8E6F /* third.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE81702E1DC2FAB60053E116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8170111DC2FAB50053E116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8170181DC2FAB50053E116;
+			remoteInfo = LPAdLoopView;
+		};
+		EE8170391DC2FAB60053E116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8170111DC2FAB50053E116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8170181DC2FAB50053E116;
+			remoteInfo = LPAdLoopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8170191DC2FAB50053E116 /* LPAdLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPAdLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE81701C1DC2FAB50053E116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE81701E1DC2FAB50053E116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8170211DC2FAB50053E116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8170231DC2FAB60053E116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8170261DC2FAB60053E116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8170281DC2FAB60053E116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE81702D1DC2FAB60053E116 /* LPAdLoopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPAdLoopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8170311DC2FAB60053E116 /* LPAdLoopViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPAdLoopViewTests.swift; sourceTree = "<group>"; };
+		EE8170331DC2FAB60053E116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8170381DC2FAB60053E116 /* LPAdLoopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPAdLoopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE81703C1DC2FAB60053E116 /* LPAdLoopViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPAdLoopViewUITests.swift; sourceTree = "<group>"; };
+		EE81703E1DC2FAB60053E116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE81704A1DC2FB740053E116 /* AdLoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdLoopView.swift; sourceTree = "<group>"; };
+		EEFE3ED51DC7443200EB8E6F /* first.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpg; sourceTree = "<group>"; };
+		EEFE3ED61DC7443200EB8E6F /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+		EEFE3ED71DC7443200EB8E6F /* third.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = third.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8170161DC2FAB50053E116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE81702A1DC2FAB60053E116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8170351DC2FAB60053E116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8170101DC2FAB50053E116 = {
+			isa = PBXGroup;
+			children = (
+				EE81701B1DC2FAB50053E116 /* LPAdLoopView */,
+				EE8170301DC2FAB60053E116 /* LPAdLoopViewTests */,
+				EE81703B1DC2FAB60053E116 /* LPAdLoopViewUITests */,
+				EE81701A1DC2FAB50053E116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE81701A1DC2FAB50053E116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8170191DC2FAB50053E116 /* LPAdLoopView.app */,
+				EE81702D1DC2FAB60053E116 /* LPAdLoopViewTests.xctest */,
+				EE8170381DC2FAB60053E116 /* LPAdLoopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE81701B1DC2FAB50053E116 /* LPAdLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE3ED51DC7443200EB8E6F /* first.jpg */,
+				EEFE3ED61DC7443200EB8E6F /* second.jpg */,
+				EEFE3ED71DC7443200EB8E6F /* third.jpg */,
+				EE81701C1DC2FAB50053E116 /* AppDelegate.swift */,
+				EE81701E1DC2FAB50053E116 /* ViewController.swift */,
+				EE81704A1DC2FB740053E116 /* AdLoopView.swift */,
+				EE8170201DC2FAB50053E116 /* Main.storyboard */,
+				EE8170231DC2FAB60053E116 /* Assets.xcassets */,
+				EE8170251DC2FAB60053E116 /* LaunchScreen.storyboard */,
+				EE8170281DC2FAB60053E116 /* Info.plist */,
+			);
+			path = LPAdLoopView;
+			sourceTree = "<group>";
+		};
+		EE8170301DC2FAB60053E116 /* LPAdLoopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8170311DC2FAB60053E116 /* LPAdLoopViewTests.swift */,
+				EE8170331DC2FAB60053E116 /* Info.plist */,
+			);
+			path = LPAdLoopViewTests;
+			sourceTree = "<group>";
+		};
+		EE81703B1DC2FAB60053E116 /* LPAdLoopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE81703C1DC2FAB60053E116 /* LPAdLoopViewUITests.swift */,
+				EE81703E1DC2FAB60053E116 /* Info.plist */,
+			);
+			path = LPAdLoopViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8170181DC2FAB50053E116 /* LPAdLoopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8170411DC2FAB60053E116 /* Build configuration list for PBXNativeTarget "LPAdLoopView" */;
+			buildPhases = (
+				EE8170151DC2FAB50053E116 /* Sources */,
+				EE8170161DC2FAB50053E116 /* Frameworks */,
+				EE8170171DC2FAB50053E116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPAdLoopView;
+			productName = LPAdLoopView;
+			productReference = EE8170191DC2FAB50053E116 /* LPAdLoopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE81702C1DC2FAB60053E116 /* LPAdLoopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8170441DC2FAB60053E116 /* Build configuration list for PBXNativeTarget "LPAdLoopViewTests" */;
+			buildPhases = (
+				EE8170291DC2FAB60053E116 /* Sources */,
+				EE81702A1DC2FAB60053E116 /* Frameworks */,
+				EE81702B1DC2FAB60053E116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE81702F1DC2FAB60053E116 /* PBXTargetDependency */,
+			);
+			name = LPAdLoopViewTests;
+			productName = LPAdLoopViewTests;
+			productReference = EE81702D1DC2FAB60053E116 /* LPAdLoopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8170371DC2FAB60053E116 /* LPAdLoopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8170471DC2FAB60053E116 /* Build configuration list for PBXNativeTarget "LPAdLoopViewUITests" */;
+			buildPhases = (
+				EE8170341DC2FAB60053E116 /* Sources */,
+				EE8170351DC2FAB60053E116 /* Frameworks */,
+				EE8170361DC2FAB60053E116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE81703A1DC2FAB60053E116 /* PBXTargetDependency */,
+			);
+			name = LPAdLoopViewUITests;
+			productName = LPAdLoopViewUITests;
+			productReference = EE8170381DC2FAB60053E116 /* LPAdLoopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8170111DC2FAB50053E116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LeeFengHY;
+				TargetAttributes = {
+					EE8170181DC2FAB50053E116 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDFNCJM5PL;
+						ProvisioningStyle = Automatic;
+					};
+					EE81702C1DC2FAB60053E116 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDFNCJM5PL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE8170181DC2FAB50053E116;
+					};
+					EE8170371DC2FAB60053E116 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PDFNCJM5PL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE8170181DC2FAB50053E116;
+					};
+				};
+			};
+			buildConfigurationList = EE8170141DC2FAB50053E116 /* Build configuration list for PBXProject "LPAdLoopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8170101DC2FAB50053E116;
+			productRefGroup = EE81701A1DC2FAB50053E116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8170181DC2FAB50053E116 /* LPAdLoopView */,
+				EE81702C1DC2FAB60053E116 /* LPAdLoopViewTests */,
+				EE8170371DC2FAB60053E116 /* LPAdLoopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8170171DC2FAB50053E116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFE3ED81DC7443200EB8E6F /* first.jpg in Resources */,
+				EE8170271DC2FAB60053E116 /* LaunchScreen.storyboard in Resources */,
+				EE8170241DC2FAB60053E116 /* Assets.xcassets in Resources */,
+				EE8170221DC2FAB50053E116 /* Main.storyboard in Resources */,
+				EEFE3ED91DC7443200EB8E6F /* second.jpg in Resources */,
+				EEFE3EDA1DC7443200EB8E6F /* third.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE81702B1DC2FAB60053E116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8170361DC2FAB60053E116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8170151DC2FAB50053E116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE81704B1DC2FB740053E116 /* AdLoopView.swift in Sources */,
+				EE81701F1DC2FAB50053E116 /* ViewController.swift in Sources */,
+				EE81701D1DC2FAB50053E116 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8170291DC2FAB60053E116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8170321DC2FAB60053E116 /* LPAdLoopViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8170341DC2FAB60053E116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE81703D1DC2FAB60053E116 /* LPAdLoopViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE81702F1DC2FAB60053E116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8170181DC2FAB50053E116 /* LPAdLoopView */;
+			targetProxy = EE81702E1DC2FAB60053E116 /* PBXContainerItemProxy */;
+		};
+		EE81703A1DC2FAB60053E116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8170181DC2FAB50053E116 /* LPAdLoopView */;
+			targetProxy = EE8170391DC2FAB60053E116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8170201DC2FAB50053E116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8170211DC2FAB50053E116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8170251DC2FAB60053E116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8170261DC2FAB60053E116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE81703F1DC2FAB60053E116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8170401DC2FAB60053E116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8170421DC2FAB60053E116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPAdLoopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPAdLoopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE8170431DC2FAB60053E116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPAdLoopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPAdLoopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE8170451DC2FAB60053E116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPAdLoopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPAdLoopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPAdLoopView.app/LPAdLoopView";
+			};
+			name = Debug;
+		};
+		EE8170461DC2FAB60053E116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPAdLoopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPAdLoopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPAdLoopView.app/LPAdLoopView";
+			};
+			name = Release;
+		};
+		EE8170481DC2FAB60053E116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPAdLoopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPAdLoopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LPAdLoopView;
+			};
+			name = Debug;
+		};
+		EE8170491DC2FAB60053E116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PDFNCJM5PL;
+				INFOPLIST_FILE = LPAdLoopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfang.LPAdLoopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LPAdLoopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8170141DC2FAB50053E116 /* Build configuration list for PBXProject "LPAdLoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE81703F1DC2FAB60053E116 /* Debug */,
+				EE8170401DC2FAB60053E116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8170411DC2FAB60053E116 /* Build configuration list for PBXNativeTarget "LPAdLoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8170421DC2FAB60053E116 /* Debug */,
+				EE8170431DC2FAB60053E116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8170441DC2FAB60053E116 /* Build configuration list for PBXNativeTarget "LPAdLoopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8170451DC2FAB60053E116 /* Debug */,
+				EE8170461DC2FAB60053E116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8170471DC2FAB60053E116 /* Build configuration list for PBXNativeTarget "LPAdLoopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8170481DC2FAB60053E116 /* Debug */,
+				EE8170491DC2FAB60053E116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8170111DC2FAB50053E116 /* Project object */;
+}
